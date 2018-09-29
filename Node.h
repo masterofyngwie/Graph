@@ -10,8 +10,12 @@
 
 @interface Node : NSObject
 
+
+@property (nonatomic) int data;
 @property (nonatomic) BOOL isVisited;
 @property (nonatomic, strong) NSMutableArray* adjNodes;
+-(instancetype)initWithData:(int)data;
+-(instancetype)init;
 
 @end
 
