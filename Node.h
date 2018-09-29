@@ -11,6 +11,7 @@
 @interface Node : NSObject
 
 @property (nonatomic) BOOL isVisited;
+@property (nonatomic, strong) NSMutableArray* adjNodes;
 
 @end
 
