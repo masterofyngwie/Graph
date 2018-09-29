@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CD6146D021588907008394BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6146CF21588907008394BB /* main.m */; };
+		CDD26583215FC86900B05546 /* Graph.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD26582215FC86900B05546 /* Graph.m */; };
+		CDD26586215FCBAA00B05546 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD26585215FCBAA00B05546 /* Node.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		CD6146CC21588907008394BB /* Graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Graph; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD6146CF21588907008394BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDD26581215FC86900B05546 /* Graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
+		CDD26582215FC86900B05546 /* Graph.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Graph.m; sourceTree = "<group>"; };
+		CDD26584215FCBAA00B05546 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		CDD26585215FCBAA00B05546 /* Node.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,10 @@
 		CD6146C321588907008394BB = {
 			isa = PBXGroup;
 			children = (
+				CDD26584215FCBAA00B05546 /* Node.h */,
+				CDD26585215FCBAA00B05546 /* Node.m */,
+				CDD26581215FC86900B05546 /* Graph.h */,
+				CDD26582215FC86900B05546 /* Graph.m */,
 				CD6146CE21588907008394BB /* Graph */,
 				CD6146CD21588907008394BB /* Products */,
 			);
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDD26583215FC86900B05546 /* Graph.m in Sources */,
 				CD6146D021588907008394BB /* main.m in Sources */,
+				CDD26586215FCBAA00B05546 /* Node.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
